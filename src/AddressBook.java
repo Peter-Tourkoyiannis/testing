@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class AddressBook extends BuddyInfo {
+public class AddressBook {
 
     //String address;
     //String phoneNumber;
@@ -20,7 +20,10 @@ public class AddressBook extends BuddyInfo {
     }
     public static void main(String[] args) {
 
-        System.out.println("Address Book");
+        BuddyInfo buddy = new BuddyInfo("Tom","Carleton","613");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addbuddy(buddy);
+        addressBook.removeBuddy(buddy);
 
     }
 }
