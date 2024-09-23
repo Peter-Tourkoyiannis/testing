@@ -2,8 +2,6 @@ import java.util.ArrayList;
 
 public class AddressBook {
 
-    //String address;
-    //String phoneNumber;
     ArrayList<BuddyInfo> buddyList = new ArrayList<>();
 
 
