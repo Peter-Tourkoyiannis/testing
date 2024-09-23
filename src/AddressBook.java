@@ -13,6 +13,12 @@ public class AddressBook {
 
     }
 
+    public void newMethod() {
+
+        System.out.println("New Testing Method");
+
+    }
+
     public void removeBuddy(BuddyInfo buddy) {
 
         buddyList.remove(buddy);
